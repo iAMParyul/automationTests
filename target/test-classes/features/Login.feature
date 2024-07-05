@@ -1,6 +1,6 @@
 Feature: Login to Demo cart
 
-  @Login
+  @Login @end
   Scenario: Demo cart login
     Given We are at login Page of Demo cart app
     When User enters the username : "Demo"

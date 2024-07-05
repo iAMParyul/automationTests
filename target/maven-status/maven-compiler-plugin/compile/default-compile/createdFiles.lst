@@ -1,5 +1,0 @@
-stepDefs/LoginStepDefs.class
-allTests/TestRunner.class
-pages/LoginPage.class
-hooks/Hooks.class
-Utils/ClickableEvents.class

@@ -1,6 +1,7 @@
 package stepDefs;
 
 import org.openqa.selenium.WebDriver;
+import pages.LaunchPage;
 import utils.ClickableEvents;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -25,13 +26,13 @@ public class LoginStepDefs {
     @Inject
     private WebDriver webDriver;
 
+    @Inject
+    private LaunchPage launchPage;
+
     @Given("We are at login Page of Demo cart app")
     public void weAreAtLoginPageOfDemoCartApp() throws InterruptedException {
-        Thread.sleep(5000);
-        clickableEvents.click(loginPage.myAccountTab);
-        Thread.sleep(5000);
-        clickableEvents.click(loginPage.loginTab);
-        Thread.sleep(5000);
+        clickableEvents.click(launchPage.myAccountTab);
+        clickableEvents.click(launchPage.loginTab);
     }
 
     @When("User enters the username : {string}")

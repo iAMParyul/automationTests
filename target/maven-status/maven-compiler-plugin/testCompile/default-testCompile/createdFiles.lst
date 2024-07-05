@@ -1,0 +1,17 @@
+Mission/HerokuAppMission.class
+pages/RegistrationPage.class
+guice/GuiceInjectorSource.class
+stepDefs/LoginStepDefs.class
+stepDefs/RegistrationStepDefs.class
+hooks/Hooks.class
+utils/RandomDataGenerator.class
+stepDefs/BackgroundStepDefs.class
+allTests/TestRunner.class
+guice/WebDriverProvider.class
+stepDefs/HerokuAppStepDefs.class
+pages/LaunchPage.class
+utils/Env.class
+utils/ClickableEvents.class
+pages/LoginPage.class
+Context/AutoTestContext.class
+guice/ProjectModule.class

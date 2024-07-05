@@ -1,0 +1,17 @@
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/guice/ProjectModule.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/Mission/HerokuAppMission.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/stepDefs/RegistrationStepDefs.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/Context/AutoTestContext.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/allTests/TestRunner.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/stepDefs/LoginStepDefs.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/utils/ClickableEvents.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/guice/WebDriverProvider.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/hooks/Hooks.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/pages/LoginPage.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/pages/LaunchPage.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/stepDefs/HerokuAppStepDefs.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/utils/Env.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/utils/RandomDataGenerator.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/pages/RegistrationPage.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/stepDefs/BackgroundStepDefs.java
+/Users/paryuljain/IdeaProjects/automationTests/src/test/java/guice/GuiceInjectorSource.java

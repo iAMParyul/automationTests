@@ -10,14 +10,8 @@ import javax.inject.Inject;
 
 public class LoginPage {
 
+    @Inject
     private WebDriver webDriver;
-
-    @FindBy(xpath = "//span[text()='My Account']")
-    public WebElement myAccountTab;
-
-    @FindBy(xpath = "//a[text()='Login']")
-    public WebElement loginTab;
-
     @FindBy(xpath = "//input[@id='input-email']")
     public WebElement usernameInput;
 
@@ -31,16 +25,18 @@ public class LoginPage {
     ClickableEvents clickableEvents;
 
     @Inject
+    LaunchPage launchPage;
+
+    @Inject
     public LoginPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this);
     }
 
     public void login( String username, String password) throws InterruptedException {
         Thread.sleep(5000);
-        clickableEvents.click(myAccountTab);
+        clickableEvents.click(launchPage.myAccountTab);
         Thread.sleep(5000);
-        clickableEvents.click(loginTab);
+        clickableEvents.click(launchPage.loginTab);
         Thread.sleep(5000);
         usernameInput.sendKeys(username);
         Thread.sleep(5000);
