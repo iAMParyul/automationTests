@@ -6,6 +6,7 @@ Feature: User Registration Validation
     Given I'm on Opencart Registration Launch page
     And I can see the details to fill page
 
+    @p
   Scenario:  New User Registration Validation
     When I fill following details on the registration page
     | Firstname | LastName | Email     |
