@@ -45,7 +45,7 @@ public class HerokuAppStepDefs {
 
     @Then("I got details from the response")
     public void iGotTheBookingIdsFrmTheResponse() {
-        context.getResponse().getBody().prettyPrint();
+        context.getResponse().getBody();
     }
 
     @When("I want to get details of booking id {string}")
